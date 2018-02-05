@@ -3,11 +3,11 @@
 one:
   title: MyString
   director: MyString
-  description: MyString
-  released: 2018-02-05
+  description: MyText
+  released: 2018-02-05 08:00:01
 
 two:
   title: MyString
   director: MyString
-  description: MyString
-  released: 2018-02-05
+  description: MyText
+  released: 2018-02-05 08:00:01

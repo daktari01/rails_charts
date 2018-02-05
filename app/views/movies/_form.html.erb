@@ -23,12 +23,12 @@
 
   <div class="field">
     <%= form.label :description %>
-    <%= form.text_field :description, id: :movie_description %>
+    <%= form.text_area :description, id: :movie_description %>
   </div>
 
   <div class="field">
     <%= form.label :released %>
-    <%= form.date_select :released, id: :movie_released %>
+    <%= form.datetime_select :released, id: :movie_released %>
   </div>
 
   <div class="actions">
