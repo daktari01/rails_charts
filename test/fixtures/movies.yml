@@ -4,10 +4,10 @@ one:
   title: MyString
   director: MyString
   description: MyString
-  released: MyString
+  released: 2018-02-05
 
 two:
   title: MyString
   director: MyString
   description: MyString
-  released: MyString
+  released: 2018-02-05
