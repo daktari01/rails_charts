@@ -9,7 +9,7 @@
 100.times do
     Movie.create([{
         title: Faker::Movie.quote,
-        director: Faker::Name.name,
+        director: Faker::Name.unique.name,
         description: Faker::Lorem.paragraph,
         released: Faker::Time.between(365.days.ago, Date.today, :day)
     }])
