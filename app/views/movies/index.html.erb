@@ -32,3 +32,6 @@
 
 <%= link_to 'New Movie', new_movie_path %>
 
+<br>
+
+<%= line_chart Movie.group_by_year(:released).count %>

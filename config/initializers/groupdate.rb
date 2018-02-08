@@ -1,1 +1,1 @@
-Groupdate.time_zone = "Pacific Time (US & Canada)"
+Groupdate.time_zone = False
